@@ -1,0 +1,69 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Press Start 2P', cursive;
+  }
+  
+  canvas {
+    background: #23272a;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1; 
+  }
+
+
+  header {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 25px 0;
+    margin-bottom: 20px; 
+    position: relative;
+}
+
+header img {
+  position: absolute; 
+  top: 10px; 
+  left: 10px; 
+  width: 50px;
+  height: auto;
+}
+
+
+h1 {
+  color: white;
+  margin: 0; 
+  font-size: 15px;
+}
+
+.container1 {
+  display: flex;
+  justify-content: center; 
+}
+
+.gif-container {
+  margin-right: 20px; 
+}
+
+.textoo{
+  color: wheat;
+  margin-top: 80px;
+  
+}
+
+.hr {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: none;
+  border-top: 5px solid #ffffff;
+}
+
+.container2{
+  max-width: 1200px; 
+  margin: 0 auto; 
+  padding: 20px; 
+  border: 5px solid #ccc; 
+  color: white;
+  line-height: 2;
+}

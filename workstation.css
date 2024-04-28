@@ -1,0 +1,70 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Press Start 2P', cursive;
+  }
+  
+  canvas {
+    background: #23272a;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1; /* Coloca el canvas detrás del contenido */
+  }
+
+
+  header {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 25px 0;
+    margin-bottom: 20px; /* Agrega un margen inferior al encabezado */
+    position: relative;
+}
+
+header img {
+  position: absolute; /* Posiciona el logotipo de forma absoluta */
+  top: 10px; /* Distancia desde la parte superior */
+  left: 10px; /* Distancia desde la izquierda */
+  width: 50px; /* Ancho deseado para el logotipo */
+  height: auto; /* Altura ajustada automáticamente */
+}
+
+h1 {
+    color: white;
+    margin: 0; /* Elimina el margen predeterminado del encabezado */
+    font-size: 15px;
+  }
+
+.container{
+    max-width: 1200px; /* Ancho máximo del contenedor */
+    margin: 0 auto; /* Centra el contenedor horizontalmente */
+    padding: 20px; /* Añade espacio alrededor del texto */
+    border: 5px solid #ccc; /* Borde del contenedor */
+    color: white;
+    line-height: 2;
+    margin-bottom: 50px; /* Espacio entre el contenedor y el siguiente elemento */
+
+  }
+
+h2 {
+    color: white;
+    margin-left: 30px;
+    font-size: 30px;
+}
+
+.container1 {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente los elementos */
+  }
+  
+  .gif-container {
+    margin-right: 10px; /* Espacio entre la imagen y el texto */
+  }
+  
+  .textoo{
+    color: white;
+    margin-top: 80px;
+    font-size: 50px;
+    
+  }
